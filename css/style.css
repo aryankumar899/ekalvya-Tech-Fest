@@ -30,6 +30,10 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+.middle{
+  position: relative;
+  top: -10px;
+}
 
 #map {
   background-color: black;
