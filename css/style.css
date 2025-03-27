@@ -31,6 +31,31 @@ body {
   font-style: normal;
 }
 
+#map {
+  background-color: black;
+}
+
+#map a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ffa600;
+}
+#map a img {
+  width: 100%;
+}
+
+.university_details {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.university_details img {
+  height: 80px;
+}
+
 .EklavyaLogo {
   position: relative;
   width: 100%; /* Default size for large screens */
@@ -38,7 +63,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto; /* Centering */
+  margin-top: -5rem;
 }
 
 #EklavyaLogoBg {
@@ -60,12 +85,26 @@ body {
     width: 100%;
     height: 250px;
   }
+  .university_details {
+    flex-direction: column;
+  }
+
+  .university_details img {
+    height: 60px;
+  }
 }
 
 @media (max-width: 768px) {
   .EklavyaLogo {
     width: 100%;
     height: 200px;
+  }
+  .university_details {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .university_details img {
+    height: 60px;
   }
 }
 
@@ -1555,7 +1594,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/bgImg.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_slider.scss */
@@ -2097,7 +2136,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/236. Event-02/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam_1.png);
+  background-image: url(../img/bgImg.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/236. Event-02/HTML/scss/_bradcam.scss */
